@@ -1,0 +1,18 @@
+C:\Users\jaiswal>docker images
+
+
+C:\Users\jaiswal>docker login
+
+
+C:\Users\jaiswal>docker tag ubuntu:latest harsh544/ubuntu
+
+
+C:\Users\jaiswal>docker images
+
+C:\Users\jaiswal>docker push harsh544/ubuntu
+
+
+C:\Users\jaiswal>docker pull harsh544/ubuntu
+
+
+C:\Users\jaiswal>docker run -p 8081:8081 harsh544/ubuntu
